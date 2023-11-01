@@ -160,8 +160,8 @@ i.style.color = "transparent";
               }
               var header = document.getElementById("d-but");
 var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
+for (var z = 0; z < btns.length; z++) {
+  btns[z].addEventListener("click", function() {
   var current = document.getElementsByClassName("active");
   current[0].className = current[0].className.replace(" active", "");
   this.className += " active";
